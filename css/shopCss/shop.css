@@ -1,0 +1,13 @@
+/* ======================= font style ==================== */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/* ---------------------- font style --------------------- */
+/* ======================= root css start =============== */
+:root{
+  --main_bg_color:#fff;
+  --cardBanner_bg-color:#F3F3F3;
+  --band_color:#262626;
+  --primary_color:#767676;
+  --footer_font_color:#6d6d6d;
+  --font_family:"DM Sans", sans-serif;
+}
+/* ------------------------ root css end ================ */
