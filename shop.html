@@ -29,7 +29,334 @@
 
 <body>
   <!-- ========================= nav part start ============ -->
+  
+  <!-- ========================= product part star ================ -->
+  <section id="productPart">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="productHead d-flex flex-column align-items-start justify-content-start">
+            <h3 class="productHead__title">Products</h3>
+            <p class="productHead__sumary"><a href="#">Home</a><span><i class="fa-solid fa-angle-right fa-beat"></i></span><a href="#">Products</a></p>
+          </div>
+          <div class="category">
+            <div class="categoryHead">
+              <h5 class="category__title">Shop by Category</h5>
+              <div class="categoryHeadSearch">
+                <div class="categoryHeadSearchBar ">
+                  <p class="categoryHeadSearchBar__title">Sort by:</p>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Featured
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Hearphone</a></li>
+                      <li><a class="dropdown-item" href="#">Bag</a></li>
+                      <li><a class="dropdown-item" href="#">watch</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="categoryHeadSearchBar ">
+                  <p class="categoryHeadSearchBar__title">Show:</p>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      36
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">36</a></li>
+                      <li><a class="dropdown-item" href="#">38 </a></li>
+                      <li><a class="dropdown-item" href="#">40</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex align-items-start">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Category 1 <span class="productPluss">+</span></button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Category 2  <span class="productPluss">+</span></button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Category 3 <span class="productPluss">+</span></button>
+                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Category 4 <span class="productPluss">+</span></button>
+                <button class="nav-link" id="product_5" data-bs-toggle="pill" data-bs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="false">Category 5 <span class="productPluss">+</span></button>
+                <h5 class="category__title category--modifily">Shop by Color</h5>
+                <button class="nav-link" id="colorone" data-bs-toggle="pill" data-bs-target="#color_one" type="button" role="tab" aria-controls="color_one" aria-selected="false">Color 1 <span class="productPluss">+</span></button>
+                <button class="nav-link" id="colortwo" data-bs-toggle="pill" data-bs-target="#color_two" type="button" role="tab" aria-controls="color_two" aria-selected="false">Color 2 <span class="productPluss">+</span></button>
+                <button class="nav-link" id="colorthree" data-bs-toggle="pill" data-bs-target="#color_three" type="button" role="tab" aria-controls="color_three" aria-selected="false">Color 3<span class="productPluss">+</span></button>
+                <button class="nav-link" id="colorfour" data-bs-toggle="pill" data-bs-target="#color_four" type="button" role="tab" aria-controls="color_four" aria-selected="false">Color 4<span class="productPluss">+</span></button>
+                <button class="nav-link" id="colorfive" data-bs-toggle="pill" data-bs-target="#color_five" type="button" role="tab" aria-controls="color_five" aria-selected="false">Color 5 <span class="productPluss">+</span></button>
+                
+              </div>
+              
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                  <div class="shop">
+                    <div class="productCardWrapper">
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <button class="productCardImg__btn">New</button>
+                        <picture>
+                          <img src="./img/shopImg/shop1.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <button class="productCardImg__btn">-10%</button>
+                        <picture>
+                          <img src="./img/shopImg/shop2.png" class="w-100 img-fluid" alt="./img/shopImg/shop2.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <picture>
+                          <img src="./img/shopImg/shop3.png" class="w-100 img-fluid" alt="./img/shopImg/shop3.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <picture>
+                          <img src="./img/shopImg/shop4.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <button class="productCardImg__btn">New</button>
+                        <picture>
+                          <img src="./img/shopImg/shop5.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <picture>
+                          <img src="./img/shopImg/shop6.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <button class="productCardImg__btn">-10%</button>
+                        <picture>
+                          <img src="./img/shopImg/shop7.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <button class="productCardImg__btn">-10%</button>
+                        <picture>
+                          <img src="./img/shopImg/shop8.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <button class="productCardImg__btn">-10%</button>
+                        <picture>
+                          <img src="./img/shopImg/shop9.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <picture>
+                          <img src="./img/shopImg/shop10.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <picture>
+                          <img src="./img/shopImg/shop11.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    <div class="productCard">
+                      <div class="productCardImg">
+                        <picture>
+                          <img src="./img/shopImg/shop12.png" class="w-100 img-fluid" alt="./img/shopImg/shop1.png">
+                        </picture>
+                        <div class="productCardImgOverlay">
+                          <a class="productCardImgOverlay__title"  href="#">Add to Wish List <span><i class="fa-sharp fa-solid fa-heart fa-beat"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Compare <span><i class="fa-solid fa-arrows-rotate-reverse fa-spin fa-spin-reverse"></i></span></a>
+                          <a class="productCardImgOverlay__title" href="#">Add to Cart <span><i class="fa-sharp fa-solid fa-cart-shopping fa-beat"></i></span></a>
+                        </div>
+                      </div>
+                      <div class="productCardHeadWrapper">
+                        <div class=" productCardHead">
+                          <h5 class="productCardHead__title">Basic Crew Neck Tee</h5>
+                          <a class="productCardHead__price" href="#">$44.00</a>
+                        </div>
+                        <p class="productCardHead__color">Black</p>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="productCardList">
+                      <ul class="productCardListItem">
+                        <li><a class="productCardListItem__one" href="#">1</a></li>
+                        <li><a class="productCardListItem__one" href="#">2</a></li>
+                        <li><a class="productCardListItem__one" href="#">3</a></li>
+                        <li><a class="productCardListItem__one" href="#">4</a></li>
+                        <span>....</span>
+                        <li><a class="productCardListItem__one" href="#">10</a></li>
+                      </ul>
+                      <p class="productCardList__sumary">Products from 1 to 12 of 80</p>
+                    </div>
+                  </div>
 
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="product" role="tabpanel" aria-labelledby="product_5" tabindex="0">512</div>
+                <div class="tab-pane fade" id="color_one" role="tabpanel" aria-labelledby="colorone" tabindex="0">..45hftftf1521.</div>
+                <div class="tab-pane fade" id="color_two" role="tabpanel" aria-labelledby="colortwo" tabindex="0">..4515vxzryhj21.</div>
+                <div class="tab-pane fade" id="color_three" role="tabpanel" aria-labelledby="colorthree" tabindex="0">..451cgfxc521.</div>
+                <div class="tab-pane fade" id="color_four" role="tabpanel" aria-labelledby="colorfour" tabindex="0">..4515vgh21.</div>
+                <div class="tab-pane fade" id="color_five" role="tabpanel" aria-labelledby="colorfive" tabindex="0">..451521.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------------------- product part end ----------------- -->
 
 
   <!-- ========================= js part start ============ -->
