@@ -1,4 +1,15 @@
 /* ================ Extra Large device ============== */
 @media (max-width: 1399.98px) { 
-  
+    @media (max-width: 1399.98px) { 
+        .adsContent {
+            row-gap: 18px;
+            padding-left: 38px;
+        }
+    
+        .adsContentOne {
+            row-gap: 22px;
+            padding-left: 24px;
+            padding-bottom: 25px;
+        }
+    }
 }

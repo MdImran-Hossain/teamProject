@@ -1,4 +1,23 @@
 /* ================ Large device ============== */
 @media (max-width: 1199.98px) { 
-  
+    .adsContent {
+        row-gap: 10px;
+        padding-left: 28px;
+    }
+    .adsContent__title {
+        font-size: 37px;
+    }
+    .adsContentOne {
+        row-gap: 10px;
+        padding-left: 24px;
+        padding-bottom: 30px;
+    }
+
+    .adsContentOne__title {
+        font-size: 30px;
+    }
+    strong {
+        font-size: 32px;
+        
+    }
  }
