@@ -1,4 +1,17 @@
 /* ================ Large device ============== */
-@media (max-width: 1199.98px) { 
-  
+@media (max-width: 1199.98px) {
+  :root {
+    --main_bg_color: #fff;
+    --cardBanner_bg-color: #f3f3f3;
+    --band_color: #262626;
+    --primary_color: #767676;
+    --footer_font_color: #6d6d6d;
+    --font_family: "DM Sans", sans-serif;
+  }
+  /* ============== Header Css Start =========== */
+  .HeaderPart {
+    display: flex;
+    column-gap: 490px;
+  }
+  /* ============== Header Css End =========== */
 }

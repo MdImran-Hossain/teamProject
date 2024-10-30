@@ -1,4 +1,52 @@
 /* ================ Small device ============== */
-@media (max-width: 767.98px) { 
-  
+@media (max-width: 767.98px) {
+  :root {
+    --main_bg_color: #fff;
+    --cardBanner_bg-color: #f3f3f3;
+    --band_color: #262626;
+    --primary_color: #767676;
+    --footer_font_color: #6d6d6d;
+    --font_family: "DM Sans", sans-serif;
+  }
+  /* ================ Header css Start=============== */
+  .HeaderPart {
+    display: flex;
+    column-gap: 77px;
+  }
+  /* ================ Header css End=============== */
+  /* ================ Navbar css Start =============== */
+  .NavbarPartMiddleFrom__input {
+    padding-right: 0px;
+    border: none;
+  }
+  .NavbarPartMiddleFrom {
+    background-color: var(--main_bg_color);
+    padding: 10px 17px;
+  }
+  /* ================ Navbar css End=============== */
+  /* ================ Footer css Start =============== */
+  .FooterPartIteam--cstmforsmall {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .FooterPartIconBoxWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .FooterPartIconBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .FooterPart__footerline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  /* ================ Footer css End=============== */
 }

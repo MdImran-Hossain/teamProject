@@ -1,4 +1,35 @@
 /* ================ Extra Small device ============== */
-@media (max-width: 575.98px) { 
-  
- }
+@media (max-width: 575.98px) {
+  :root {
+    --main_bg_color: #fff;
+    --cardBanner_bg-color: #f3f3f3;
+    --band_color: #262626;
+    --primary_color: #767676;
+    --footer_font_color: #6d6d6d;
+    --font_family: "DM Sans", sans-serif;
+  }
+  /* =============Header css start=========== */
+  .HeaderPart {
+    column-gap: 80px;
+  }
+  .HeaderPartMenu {
+    column-gap: 30px;
+  }
+  /* =============Header css end=========== */
+  /* =============NavbarPart css Start=========== */
+  .NavbarPartMiddleFrom {
+    padding: 5px 0px;
+  }
+  .NavbarPartMiddleFrom__input {
+    padding-left: 5px;
+
+    font-size: 14px;
+  }
+  .NavbarPartMiddleFrom__btn {
+    padding-right: 10px;
+  }
+  .NavbarPartRight {
+    column-gap: 14px;
+  }
+  /* =============NavbarPart css end=========== */
+}

@@ -1,13 +1,142 @@
 /* ======================= font style ==================== */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 /* ---------------------- font style --------------------- */
 /* ======================= root css start =============== */
-:root{
-  --main_bg_color:#fff;
-  --cardBanner_bg-color:#F3F3F3;
-  --band_color:#262626;
-  --primary_color:#767676;
-  --footer_font_color:#6d6d6d;
-  --font_family:"DM Sans", sans-serif;
+:root {
+  --main_bg_color: #fff;
+  --cardBanner_bg-color: #f3f3f3;
+  --band_color: #262626;
+  --primary_color: #767676;
+  --footer_font_color: #6d6d6d;
+  --font_family: "DM Sans", sans-serif;
 }
 /* ------------------------ root css end ================ */
+/* ------------------------ Header css Start ================ */
+#Header {
+  padding: 32px 0;
+  background-color: var(--main_bg_color);
+}
+.HeaderPart {
+  display: flex;
+  column-gap: 544px;
+}
+.HeaderPartMenu {
+  display: flex;
+  column-gap: 40px;
+}
+.HeaderPartMenuItem__link {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--primary_color);
+}
+/* ------------------------ Header css end ================ */
+/* ------------------------ Navbar css Start ================ */
+#Navbar {
+  background-color: #f5f5f3;
+  padding: 25px 0;
+}
+.NavbarPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavbarPartleft__Titele {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: var(--band_color);
+  align-items: center;
+}
+.NavbarPartleftlist {
+  display: none;
+  background-color: var(--main_bg_color);
+  position: absolute;
+  left: 0px;
+  top: 21px;
+  padding: 18px;
+}
+.NavbarPartleftlistItem {
+  margin-top: 15px;
+}
+.NavbarPartleftlistItem__link {
+  font-family: var(--font_family);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--band_color);
+}
+.NavbarPartleft__Titele:hover .NavbarPartleftlist {
+  display: block;
+}
+.NavbarPartMiddleFrom {
+  background-color: var(--main_bg_color);
+  padding: 16px 21px;
+}
+.NavbarPartMiddleFrom__input {
+  padding-right: 443px;
+  border: none;
+}
+.NavbarPartMiddleFrom__btn {
+  background-color: var(--main_bg_color);
+  border: none;
+}
+.NavbarPartRight {
+  display: flex;
+  column-gap: 41px;
+  align-items: center;
+}
+.NavbarPartRight__User {
+  display: flex;
+  column-gap: 10px;
+}
+/* ------------------------ Navbar css Start ================ */
+/* ------------------------ footer css Start ================ */
+#Footer {
+  background-color: #f5f5f3;
+  padding: 55px 52px;
+}
+.FooterPart {
+  /* css */
+}
+.FooterPartIteam {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.FooterPartIteamList__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+  font-family: var(--font_family);
+}
+.FooterPartIteamList__link--cstm {
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+.FooterPartIteam__contactNum {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: var(--font_family);
+  color: var(--band_color);
+}
+
+.FooterPartIconBoxWrapper {
+  margin-top: 65px;
+}
+.FooterPartIconBox {
+  display: flex;
+  column-gap: 26px;
+  align-items: center;
+}
+.FooterPart__footerline {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font_family);
+  color: #6d6d6d;
+ 
+}
+/* ------------------------ footer css end ================ */
