@@ -10,4 +10,16 @@
 }
 /* ------------------------ Header css Start ================ */
 
+
+        .adsContent {
+            row-gap: 18px;
+            padding-left: 38px;
+        }
+    
+        .adsContentOne {
+            row-gap: 22px;
+            padding-left: 24px;
+            padding-bottom: 25px;
+        }
+
 }

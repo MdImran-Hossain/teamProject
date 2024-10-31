@@ -49,4 +49,31 @@
     margin-top: 20px;
   }
   /* ================ Footer css End=============== */
-}
+
+    .count::after {
+        top: -8px;
+    }
+    .heroLeft {
+        row-gap: 12px;
+    }
+    .heroLeft__title {
+        font-size: 40px;
+    }
+
+    .adsContent {
+        row-gap: 18px;
+        padding-left: 28px;
+    }
+    .adsContent__title {
+        font-size: 37px;
+    }
+
+    .adsContentOne {
+        row-gap: 13px;
+        padding-left: 28px;
+        padding-bottom: 34px;
+    }
+    .adsContentOne__title {
+        font-size: 33px;
+    }
+ }

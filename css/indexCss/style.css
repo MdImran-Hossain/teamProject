@@ -180,3 +180,191 @@ html {
  
 }
 /* ------------------------ footer css end ================ */
+
+/* ------------------------ Hero css  ================ */
+#heroPart{
+    background-color: #F5F7F9;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  .count{
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--font_family);
+    color: var(--band_color);
+    position: relative;
+    margin-left: 26px;
+  }
+  
+  .count::after{
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 2px;
+    background-color: var(--band_color);
+    right: -10px;
+  }
+  
+  .heroLeft{
+    row-gap: 33px;
+  }
+  
+  .heroLeft__title{
+    font-size: 49px;
+    font-weight: 700;
+    color: var(--band_color);
+    font-family: var(--font_family);
+  }
+  
+  
+  .heroLeft__summary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_family);
+    color: var(--footer_font_color);
+  }
+  
+  strong{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--font_family);
+    color: var(--band_color);
+    padding-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .shopBtn{
+    padding: 16px 57px ;
+    background-color: var(--band_color);
+    color: var(--main_bg_color);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--font_family);
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+    margin-top: 16px;
+  }
+  
+  .shopBtn:hover{
+     border: 1px solid var(--band_color);
+     background-color: transparent;
+     color: var(--band_color);
+  }
+  /* ------------------------ Hero css  ================ */
+  
+  /* ------------------------ information css  ================ */
+  #informationPart {
+    padding: 21px;
+    background-color: var(--main_bg_color);
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .contentOneCount {
+    font-size: 21px;
+    font-weight: 700;
+    padding-right: 16px;
+    margin-bottom: 1px;
+    color: var(--band_color);
+    margin-left: 26px;
+  }
+  
+  .contentOne__summary {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--footer_font_color);
+  }
+  i[class="fa-sharp fa-solid fa-truck"],
+  [class="fa-solid fa-rotate-left"] {
+    font-size: 16px;
+    padding-right: 15px;
+  }
+  
+  /* ------------------------ infornmation css  ================ */
+  
+  
+  /* ------------------------ Ads css  ================ */
+  #adsPart{
+    padding: 174px 0 128px 0;
+  }
+  
+  
+  .adsContent{
+    row-gap: 36px;
+    bottom: 0;
+    padding-left: 64px;
+    padding-bottom: 23px;
+  }
+  
+  .adsContent__title{
+    font-size: 49px;
+    font-weight: 700;
+    font-family: var(--font_family);
+    color: var(--band_color);
+  }
+  
+  .adsContent__summary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_family);
+    color: #858687;
+  }
+  
+  .btnOne{
+    padding: 15px 57px;
+    background-color: var(--band_color);
+    color: var(--main_bg_color);
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+  }
+  
+  .btnOne:hover{
+    background-color: transparent;
+    border: 1px solid var(--band_color);
+    color: var(--band_color);
+  }
+  
+  .adsContentOne{
+    row-gap: 36px;
+    padding-left: 42px;
+    padding-bottom: 31px;
+  }
+  
+  .adsContentOne__title{
+    font-size: 39px;
+    font-weight: 700;
+    font-family: var(--font_family);
+    color:var(--band_color);
+  }
+  
+  .adsContentOne__summary{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font_family);
+    color: #858687;
+  }
+  
+  .btnTwo{
+    padding: 15px 57px;
+    background-color: var(--band_color);
+    color: var(--main_bg_color);
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+  }
+  
+  .btnTwo:hover{
+    background-color: transparent;
+    color: var(--band_color);
+    border: 1px solid var(--band_color);
+  }
+  /* ------------------------ Ads css  ================ */
