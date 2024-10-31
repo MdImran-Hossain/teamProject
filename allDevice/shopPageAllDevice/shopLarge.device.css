@@ -1,4 +1,16 @@
 /* ================ Large device ============== */
 @media (max-width: 1199.98px) { 
-  
+  .nav-link {
+    width: 140px;
+    font-size: 14px;
+  }
+  .productCard {
+    max-width: 252px;
+  }
+  .productCardImgOverlay__title {
+    font-size: 14px;
+  }
+  .productCardHead__title {
+    font-size: 14px;
+  }
 }

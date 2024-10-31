@@ -1,4 +1,6 @@
 /* ================ Mediam device ============== */
 @media (max-width: 991.98px) { 
-  
+  .productHead__title {
+    font-size: 45px;
+  }
 }

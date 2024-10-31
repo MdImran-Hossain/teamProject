@@ -1,4 +1,64 @@
 /* ================ Small device ============== */
 @media (max-width: 767.98px) { 
-  
+  .productHead__title {
+    font-size: 40px;
+  }
+  .category__title {
+    font-size: 16px;
+  }
+  .categoryHeadSearchBar__title {
+    font-size: 14px;
+  }
+  .btn {
+   font-size: 12px;
+  }
+  .dropdown-item {
+    font-size: 12px;
+  }
+  .nav-link {
+    width: 100px;
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  .productCard {
+    max-width: 188px;
+  }
+  .productCardImgOverlay {
+    row-gap: 3px;
+    padding: 16px 10px;
+  }
+  .productCardImg__btn {
+    padding: 6px 20px;
+    font-size: 12px;
+    left: 10px;
+  }
+  .productCard:hover .productCardImg__btn {
+    top: 10px;
+  }
+  .productCardHead {
+    gap: 15px;
+  }
+  .productCardHead__title {
+    font-size: 10px;
+  }
+  .productCardHead__price {
+    font-size: 10px;
+  }
+  .productCardHead__color {
+    font-size: 12px;
+  }
+  .category__title {
+    font-size: 14px;
+  }
+  .productCardListItem {
+    column-gap: 9px;
+  }
+  .productCardListItem__one {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+  .productCardList__sumary {
+    font-size: 12px;
+    
+  }
 }

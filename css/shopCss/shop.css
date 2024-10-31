@@ -86,6 +86,22 @@
   color: var(--primary_color);
   background: transparent;
 }
+.cricle{
+  font-size: 10px;
+  color: #000;
+}
+.cricletwo{
+  color: #FF8686;
+}
+.criclethree{
+  color: #7ED321;
+}
+.criclefour{
+  color: #B6B6B6;
+}
+.criclefive{
+  color: #15CBA5;
+}
 .dropdown-toggle.show::after {
   display: inline-block;
   margin-left: .255em;
