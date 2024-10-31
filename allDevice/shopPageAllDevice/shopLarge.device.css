@@ -14,4 +14,17 @@
     column-gap: 490px;
   }
   /* ============== Header Css End =========== */
+  .nav-link {
+    width: 140px;
+    font-size: 14px;
+  }
+  .productCard {
+    max-width: 252px;
+  }
+  .productCardImgOverlay__title {
+    font-size: 14px;
+  }
+  .productCardHead__title {
+    font-size: 14px;
+  }
 }
