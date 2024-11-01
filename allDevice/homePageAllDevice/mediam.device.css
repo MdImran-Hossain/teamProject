@@ -38,4 +38,17 @@
     padding-left: 48px;
     padding-bottom: 59px;
 }
+/* ============ phone part ============= */
+.phonePartHead {
+	row-gap: 18px;
+}
+.phonePartHead__title {
+	font-size: 28px; 
+}
+.phonePartHead__sumary {
+	font-size: 12px;
+}
+.phonePartHead__btn {
+	padding: 8px 35px;
+}
 }

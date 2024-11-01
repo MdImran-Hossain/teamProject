@@ -76,4 +76,26 @@
     .adsContentOne__title {
         font-size: 33px;
     }
+    /* =========== phone part ========== */
+    .phonePartHead {
+      padding: 23px 10px;
+      row-gap: 9px;
+    }
+    .phonePartHead__title {
+      font-size: 20px;
+    }
+    .phonePartHead__sumary {
+      font-size: 10px;
+    }
+    .phonePartHead__btn {
+      padding: 8px 28px;
+      font-size: 10px;
+    }
+    .productCardHead__title{
+      font-size: 12px;
+    }
+    .productCardHead__price {
+      font-size: 12px;
+      
+    }
  }
